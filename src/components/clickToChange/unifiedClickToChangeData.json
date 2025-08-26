@@ -1,0 +1,162 @@
+{
+  "ui": {
+    "buttons": {
+      "learnWithExamples": "Learn with examples",
+      "backToPractice": "Back to practice",
+      "submit": "Submit",
+      "next": "Next",
+      "previous": "Previous",
+      "reset": "Reset"
+    },
+    "labels": {
+      "question": "Question",
+      "clickToChange": "Click to change",
+      "explanation": "Explanation",
+      "hint": "Hint",
+      "progress": "Progress",
+      "score": "Score",
+      "currentAnswer": "Current answer",
+      "correctAnswer": "Correct answer"
+    },
+    "messages": {
+      "correct": "Correct!",
+      "incorrect": "Try again",
+      "clickWord": "Click on a word to change it",
+      "completed": "Exercise completed!",
+      "loading": "Loading..."
+    }
+  },
+  "exampleContent": {
+    "title": "Click to Change Examples",
+    "description": "Learn how to identify and correct errors by clicking on words to cycle through options",
+    "learningPoints": [
+      "Read the sentence carefully to identify what needs to be changed",
+      "Click on words that seem incorrect or inappropriate",
+      "Consider grammar rules and sentence meaning",
+      "Look for context clues that indicate the correct choice",
+      "Check that your changes make the sentence logical and grammatically correct"
+    ],
+    "sections": [
+      {
+        "title": "Grammar Correction",
+        "description": "Learn to identify and fix common grammar mistakes in sentences",
+        "examples": [
+          {
+            "sentence": "The dog are running in the park.",
+            "errorWord": "are",
+            "correctWord": "is",
+            "options": ["are", "is", "were"],
+            "explanation": "Since 'dog' is singular, we need the singular verb 'is' instead of the plural 'are'.",
+            "grammarRule": "Subject-verb agreement: singular subjects take singular verbs"
+          },
+          {
+            "sentence": "She don't like ice cream.",
+            "errorWord": "don't",
+            "correctWord": "doesn't",
+            "options": ["don't", "doesn't", "didn't"],
+            "explanation": "'She' is a singular pronoun, so it needs 'doesn't' (does not) rather than 'don't' (do not).",
+            "grammarRule": "Use 'doesn't' with singular subjects (he, she, it)"
+          },
+          {
+            "sentence": "I seen the movie yesterday.",
+            "errorWord": "seen",
+            "correctWord": "saw",
+            "options": ["seen", "saw", "see"],
+            "explanation": "'Seen' requires a helping verb (have seen). For past tense without a helper, use 'saw'.",
+            "grammarRule": "Past tense vs. past participle usage"
+          }
+        ]
+      },
+      {
+        "title": "Word Choice Correction",
+        "description": "Learn to select the most appropriate word for the context",
+        "examples": [
+          {
+            "sentence": "The weather is very cold today.",
+            "errorWord": "cold",
+            "correctWord": "hot",
+            "options": ["cold", "hot", "warm"],
+            "explanation": "If the context suggests summer or warm conditions, 'hot' would be more appropriate than 'cold'.",
+            "context": "Summer weather description"
+          },
+          {
+            "sentence": "She walked slow to the store.",
+            "errorWord": "slow",
+            "correctWord": "slowly",
+            "options": ["slow", "slowly", "quick"],
+            "explanation": "We need an adverb 'slowly' to describe how she walked, not the adjective 'slow'.",
+            "grammarRule": "Use adverbs to modify verbs"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": 1,
+      "type": "click_to_change",
+      "instruction": "Click on the incorrect word to fix the grammar error.",
+      "sentence": "The cats is sleeping on the couch.",
+      "words": [
+        {"text": "The", "options": ["The", "A", "An"], "isCorrect": true},
+        {"text": "cats", "options": ["cat", "cats", "dog"], "isCorrect": true},
+        {"text": "is", "options": ["is", "are", "was"], "correctIndex": 1, "isCorrect": false},
+        {"text": "sleeping", "options": ["sleeping", "sleep", "sleeps"], "isCorrect": true},
+        {"text": "on", "options": ["on", "in", "at"], "isCorrect": true},
+        {"text": "the", "options": ["the", "a", "an"], "isCorrect": true},
+        {"text": "couch", "options": ["couch", "chair", "bed"], "isCorrect": true}
+      ],
+      "explanation": "Since 'cats' is plural, we need the plural verb 'are' instead of the singular 'is'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "type": "click_to_change",
+      "instruction": "Click on the word that needs to be changed to make the sentence correct.",
+      "sentence": "She don't have any homework today.",
+      "words": [
+        {"text": "She", "options": ["She", "He", "They"], "isCorrect": true},
+        {"text": "don't", "options": ["don't", "doesn't", "didn't"], "correctIndex": 1, "isCorrect": false},
+        {"text": "have", "options": ["have", "has", "had"], "isCorrect": true},
+        {"text": "any", "options": ["any", "some", "no"], "isCorrect": true},
+        {"text": "homework", "options": ["homework", "work", "assignment"], "isCorrect": true},
+        {"text": "today", "options": ["today", "yesterday", "tomorrow"], "isCorrect": true}
+      ],
+      "explanation": "'She' is singular, so it should be 'doesn't' (does not) instead of 'don't' (do not).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "type": "click_to_change",
+      "instruction": "Click on the word that should be changed to improve the sentence.",
+      "sentence": "The dog run fast in the yard.",
+      "words": [
+        {"text": "The", "options": ["The", "A", "An"], "isCorrect": true},
+        {"text": "dog", "options": ["dog", "cat", "bird"], "isCorrect": true},
+        {"text": "run", "options": ["run", "runs", "running"], "correctIndex": 1, "isCorrect": false},
+        {"text": "fast", "options": ["fast", "slow", "quickly"], "isCorrect": true},
+        {"text": "in", "options": ["in", "on", "at"], "isCorrect": true},
+        {"text": "the", "options": ["the", "a", "an"], "isCorrect": true},
+        {"text": "yard", "options": ["yard", "park", "house"], "isCorrect": true}
+      ],
+      "explanation": "'Dog' is singular, so it needs the singular verb 'runs' instead of 'run'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "type": "click_to_change",
+      "instruction": "Click on the word that needs to be corrected.",
+      "sentence": "I seen that movie last week.",
+      "words": [
+        {"text": "I", "options": ["I", "We", "They"], "isCorrect": true},
+        {"text": "seen", "options": ["seen", "saw", "see"], "correctIndex": 1, "isCorrect": false},
+        {"text": "that", "options": ["that", "this", "the"], "isCorrect": true},
+        {"text": "movie", "options": ["movie", "book", "show"], "isCorrect": true},
+        {"text": "last", "options": ["last", "this", "next"], "isCorrect": true},
+        {"text": "week", "options": ["week", "month", "year"], "isCorrect": true}
+      ],
+      "explanation": "For past tense without a helping verb, use 'saw' instead of 'seen'. 'Seen' would need 'have' (I have seen).",
+      "difficulty": "medium"
+    }
+  ]
+}

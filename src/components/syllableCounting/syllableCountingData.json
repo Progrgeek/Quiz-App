@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "question": "How many syllables are in the word 'elephant'?",
+    "word": "elephant",
+    "correctAnswer": 3,
+    "options": [2, 3, 4, 5],
+    "hint": "Break it down: el-e-phant",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "Count the syllables in 'beautiful':",
+    "word": "beautiful",
+    "correctAnswer": 3,
+    "options": [2, 3, 4, 5],
+    "hint": "Say it slowly: beau-ti-ful",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3,
+    "question": "How many syllables does 'computer' have?",
+    "word": "computer",
+    "correctAnswer": 3,
+    "options": [2, 3, 4, 5],
+    "hint": "Think: com-pu-ter",
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "question": "Count syllables in 'refrigerator':",
+    "word": "refrigerator",
+    "correctAnswer": 5,
+    "options": [4, 5, 6, 7],
+    "hint": "Break it down: re-frig-er-a-tor",
+    "difficulty": "hard"
+  },
+  {
+    "id": 5,
+    "question": "How many syllables in 'understanding'?",
+    "word": "understanding",
+    "correctAnswer": 4,
+    "options": [3, 4, 5, 6],
+    "hint": "Think: un-der-stand-ing",
+    "difficulty": "medium"
+  }
+]

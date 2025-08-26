@@ -1,0 +1,11 @@
+{
+  "welcome": "Bienvenue dans Quiz App",
+  "instructions": "Suivez les instructions pour compléter chaque exercice",
+  "score": "Votre Score",
+  "correct": "Correct !",
+  "incorrect": "Incorrect",
+  "completed": "Exercice Terminé",
+  "loading": "Chargement...",
+  "error": "Une erreur s'est produite",
+  "retry": "Veuillez réessayer"
+}

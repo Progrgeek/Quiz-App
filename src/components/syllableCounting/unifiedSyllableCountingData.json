@@ -1,0 +1,195 @@
+{
+  "ui": {
+    "buttons": {
+      "learnWithExamples": "Learn with examples",
+      "backToPractice": "Back to practice",
+      "playAudio": "Play audio",
+      "submit": "Submit",
+      "next": "Next",
+      "previous": "Previous",
+      "clap": "Clap along"
+    },
+    "labels": {
+      "question": "Question",
+      "countSyllables": "Count the syllables",
+      "explanation": "Explanation",
+      "hint": "Hint",
+      "progress": "Progress",
+      "score": "Score",
+      "syllableCount": "Syllable count",
+      "listenCarefully": "Listen carefully"
+    },
+    "messages": {
+      "correct": "Correct!",
+      "incorrect": "Try again",
+      "selectCount": "Please select a syllable count",
+      "completed": "Exercise completed!",
+      "loading": "Loading..."
+    }
+  },
+  "exampleContent": {
+    "title": "Syllable Counting Examples",
+    "description": "Learn how to break words into syllables and count them accurately",
+    "learningPoints": [
+      "Each syllable contains one vowel sound",
+      "Clap your hands for each syllable as you say the word",
+      "Break words into parts that you can hear",
+      "Listen for the beats in the word",
+      "Practice saying words slowly to hear each part"
+    ],
+    "sections": [
+      {
+        "title": "One Syllable Words",
+        "description": "Learn to identify words with just one syllable (one beat)",
+        "examples": [
+          {
+            "word": "cat",
+            "syllables": ["cat"],
+            "count": 1,
+            "audioGuide": "Listen: cat - one beat",
+            "tips": "Short words are often one syllable",
+            "explanation": "The word 'cat' is said as one unit with one vowel sound, so it has one syllable."
+          },
+          {
+            "word": "dog",
+            "syllables": ["dog"],
+            "count": 1,
+            "audioGuide": "Listen: dog - one beat",
+            "tips": "Clap once while saying this word",
+            "explanation": "'Dog' has one vowel sound and is pronounced as one unit."
+          },
+          {
+            "word": "book",
+            "syllables": ["book"],
+            "count": 1,
+            "audioGuide": "Listen: book - one beat",
+            "tips": "Even though it has two vowels, it makes one sound",
+            "explanation": "'Book' has one syllable because the 'oo' makes one vowel sound."
+          }
+        ]
+      },
+      {
+        "title": "Two Syllable Words",
+        "description": "Learn to identify words with two syllables (two beats)",
+        "examples": [
+          {
+            "word": "rabbit",
+            "syllables": ["rab", "bit"],
+            "count": 2,
+            "audioGuide": "Listen: rab-bit - two beats",
+            "tips": "Clap twice: rab (clap) bit (clap)",
+            "explanation": "'Rabbit' can be broken into two parts: 'rab' and 'bit', each with its own vowel sound."
+          },
+          {
+            "word": "table",
+            "syllables": ["ta", "ble"],
+            "count": 2,
+            "audioGuide": "Listen: ta-ble - two beats",
+            "tips": "Notice how each part has a vowel sound",
+            "explanation": "'Table' has two syllables: 'ta' and 'ble'."
+          },
+          {
+            "word": "pencil",
+            "syllables": ["pen", "cil"],
+            "count": 2,
+            "audioGuide": "Listen: pen-cil - two beats",
+            "tips": "Put your hand under your chin and feel it drop twice",
+            "explanation": "'Pencil' breaks into 'pen' and 'cil' - two distinct parts."
+          }
+        ]
+      },
+      {
+        "title": "Three Syllable Words",
+        "description": "Learn to identify words with three syllables (three beats)",
+        "examples": [
+          {
+            "word": "elephant",
+            "syllables": ["e", "le", "phant"],
+            "count": 3,
+            "audioGuide": "Listen: e-le-phant - three beats",
+            "tips": "Clap three times: e (clap) le (clap) phant (clap)",
+            "explanation": "'Elephant' has three syllables: 'e', 'le', and 'phant'."
+          },
+          {
+            "word": "computer",
+            "syllables": ["com", "pu", "ter"],
+            "count": 3,
+            "audioGuide": "Listen: com-pu-ter - three beats",
+            "tips": "Say it slowly to hear each part",
+            "explanation": "'Computer' breaks down into three parts: 'com', 'pu', and 'ter'."
+          },
+          {
+            "word": "banana",
+            "syllables": ["ba", "na", "na"],
+            "count": 3,
+            "audioGuide": "Listen: ba-na-na - three beats",
+            "tips": "Notice the repeated 'na' sound",
+            "explanation": "'Banana' has three syllables with the pattern 'ba-na-na'."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": 1,
+      "type": "syllable_count",
+      "word": "butterfly",
+      "image": "/images/butterfly.png",
+      "syllables": ["but", "ter", "fly"],
+      "correctAnswer": 3,
+      "options": [2, 3, 4],
+      "question": "How many syllables are in the word 'butterfly'?",
+      "explanation": "'Butterfly' has three syllables: but-ter-fly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 2,
+      "type": "syllable_count",
+      "word": "cat",
+      "image": "/images/cat.png",
+      "syllables": ["cat"],
+      "correctAnswer": 1,
+      "options": [1, 2, 3],
+      "question": "How many syllables are in the word 'cat'?",
+      "explanation": "'Cat' has one syllable - it's said as one unit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "type": "syllable_count",
+      "word": "telephone",
+      "image": "/images/telephone.png",
+      "syllables": ["tel", "e", "phone"],
+      "correctAnswer": 3,
+      "options": [2, 3, 4],
+      "question": "Count the syllables in 'telephone'.",
+      "explanation": "'Telephone' has three syllables: tel-e-phone.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "type": "syllable_count",
+      "word": "pizza",
+      "image": "/images/pizza.png",
+      "syllables": ["piz", "za"],
+      "correctAnswer": 2,
+      "options": [1, 2, 3],
+      "question": "How many syllables does 'pizza' have?",
+      "explanation": "'Pizza' has two syllables: piz-za.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "type": "syllable_count",
+      "word": "refrigerator",
+      "image": "/images/refrigerator.png",
+      "syllables": ["re", "frig", "er", "a", "tor"],
+      "correctAnswer": 5,
+      "options": [4, 5, 6],
+      "question": "Count the syllables in 'refrigerator'.",
+      "explanation": "'Refrigerator' has five syllables: re-frig-er-a-tor.",
+      "difficulty": "hard"
+    }
+  ]
+}

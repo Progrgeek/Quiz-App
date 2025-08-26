@@ -1,0 +1,7 @@
+/* Import accessibility and mobile enhancement styles */
+@import './styles/accessibility.css';
+@import './styles/mobile.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

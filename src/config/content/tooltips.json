@@ -1,0 +1,44 @@
+{
+  "navigation": {
+    "home": "Go to homepage",
+    "exercises": "Browse all exercises",
+    "progress": "View your progress and statistics",
+    "settings": "Open settings and preferences",
+    "help": "Get help and support",
+    "language": "Change language"
+  },
+  "buttons": {
+    "submit": "Submit your answer",
+    "next": "Go to next question",
+    "previous": "Go to previous question", 
+    "hint": "Get a hint for this question",
+    "audio": "Play audio pronunciation",
+    "example": "View example and explanation",
+    "restart": "Restart the current exercise",
+    "finish": "Finish and view results"
+  },
+  "interactions": {
+    "dragDrop": "Drag and drop items to organize them",
+    "clickSelect": "Click to select your answer",
+    "typeAnswer": "Type your answer in the text field",
+    "highlight": "Click on text to highlight it",
+    "arrange": "Drag to arrange items in order"
+  },
+  "feedback": {
+    "correct": "Your answer is correct",
+    "incorrect": "Your answer is incorrect",
+    "hint": "This is a helpful hint for the question",
+    "explanation": "Explanation of the correct answer"
+  },
+  "progress": {
+    "score": "Your current score out of total points",
+    "time": "Time spent on this exercise",
+    "questions": "Number of questions completed",
+    "accuracy": "Percentage of correct answers"
+  },
+  "accessibility": {
+    "skipToContent": "Skip navigation and go to main content",
+    "keyboardInstructions": "Use Tab to navigate, Enter to select",
+    "screenReaderInstructions": "This is an interactive exercise. Use arrow keys to navigate options"
+  }
+}

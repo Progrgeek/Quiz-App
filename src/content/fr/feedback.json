@@ -1,0 +1,18 @@
+{
+  "success": "Excellent travail!",
+  "error": "Veuillez réessayer",
+  "partial": "Vous êtes sur la bonne voie",
+  "hint": "Voici un indice pour vous aider",
+  "completed": "Exercice terminé avec succès!",
+  "correct": "Correct!",
+  "incorrect": "Incorrect",
+  "almostThere": "Vous y êtes presque! Continuez d'essayer.",
+  "wellDone": "Bien joué!",
+  "tryOnceMore": "Essayez encore une fois",
+  "perfectScore": "Score parfait! Travail incroyable!",
+  "goodJob": "Bon travail!",
+  "needsImprovement": "Vous pouvez faire mieux! Réessayez.",
+  "timeUp": "Temps écoulé!",
+  "scoreMessage": "Vous avez obtenu {{score}} sur {{total}}",
+  "encouragement": "Continuez à pratiquer pour améliorer vos compétences!"
+}

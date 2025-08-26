@@ -1,0 +1,17 @@
+{
+  "general": "Follow the instructions below",
+  "readCarefully": "Read the instructions carefully",
+  "takeYourTime": "Take your time and think about your answer",
+  "multipleChoice": "Select the best answer from the options below",
+  "multipleAnswers": "Select all answers that apply",
+  "dragAndDrop": "Drag items from the left to the correct locations on the right",
+  "fillInTheBlanks": "Fill in the missing words to complete the sentences",
+  "highlight": "Click and drag to highlight the correct text in the passage",
+  "sequencing": "Arrange the items in the correct order by dragging them",
+  "clickToChange": "Click on items to change or modify them",
+  "gapFill": "Choose the correct word to fill each gap",
+  "table": "Complete the table by filling in the missing information",
+  "example": "Here's an example to help you understand:",
+  "yourTurn": "Now it's your turn!",
+  "reminder": "Remember: {{reminder}}"
+}

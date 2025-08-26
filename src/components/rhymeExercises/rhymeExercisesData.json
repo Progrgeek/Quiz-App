@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Which words rhyme with 'cat'?",
+    "options": ["bat", "dog", "hat", "car"],
+    "correctAnswers": ["bat", "hat"],
+    "hint": "Think about words that end with the same sound as 'cat'",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "Find the rhyming words for 'tree':",
+    "options": ["see", "car", "bee", "sun"],
+    "correctAnswers": ["see", "bee"],
+    "hint": "Listen for words that sound like 'ee' at the end",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "question": "Which words rhyme with 'light'?",
+    "options": ["bright", "dark", "night", "day"],
+    "correctAnswers": ["bright", "night"],
+    "hint": "Focus on the 'ight' sound",
+    "difficulty": "medium"
+  },
+  {
+    "id": 4,
+    "question": "Select the words that rhyme with 'play':",
+    "options": ["day", "work", "say", "run"],
+    "correctAnswers": ["day", "say"],
+    "hint": "Think about the 'ay' sound",
+    "difficulty": "medium"
+  },
+  {
+    "id": 5,
+    "question": "Find all words that rhyme with 'mountain':",
+    "options": ["fountain", "river", "counting", "lake"],
+    "correctAnswers": ["fountain", "counting"],
+    "hint": "Listen for the 'ountain' sound pattern",
+    "difficulty": "hard"
+  }
+]

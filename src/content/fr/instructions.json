@@ -1,0 +1,17 @@
+{
+  "general": "Suivez les instructions ci-dessous",
+  "readCarefully": "Lisez attentivement les instructions",
+  "takeYourTime": "Prenez votre temps et réfléchissez à votre réponse",
+  "multipleChoice": "Sélectionnez la meilleure réponse parmi les options ci-dessous",
+  "multipleAnswers": "Sélectionnez toutes les réponses qui s'appliquent",
+  "dragAndDrop": "Faites glisser les éléments de gauche vers les emplacements corrects à droite",
+  "fillInTheBlanks": "Remplissez les mots manquants pour compléter les phrases",
+  "highlight": "Cliquez et faites glisser pour surligner le texte correct dans le passage",
+  "sequencing": "Organisez les éléments dans le bon ordre en les faisant glisser",
+  "clickToChange": "Cliquez sur les éléments pour les changer ou les modifier",
+  "gapFill": "Choisissez le bon mot pour remplir chaque espace",
+  "table": "Complétez le tableau en remplissant les informations manquantes",
+  "example": "Voici un exemple pour vous aider à comprendre:",
+  "yourTurn": "À votre tour maintenant!",
+  "reminder": "Rappel: {{reminder}}"
+}

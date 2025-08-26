@@ -1,0 +1,180 @@
+{
+  "ui": {
+    "buttons": {
+      "learnWithExamples": "Learn with examples",
+      "backToPractice": "Back to practice",
+      "submit": "Submit",
+      "next": "Next",
+      "previous": "Previous",
+      "checkAnswer": "Check Answer"
+    },
+    "labels": {
+      "question": "Question",
+      "fillTable": "Fill in the table",
+      "rowHeader": "Row",
+      "columnHeader": "Column",
+      "explanation": "Explanation",
+      "hint": "Hint",
+      "progress": "Progress",
+      "score": "Score"
+    },
+    "messages": {
+      "correct": "Correct!",
+      "incorrect": "Try again",
+      "fillAllCells": "Please fill in all required cells",
+      "completed": "Exercise completed!",
+      "loading": "Loading..."
+    }
+  },
+  "exampleContent": {
+    "title": "Table Exercise Examples",
+    "description": "Learn how to complete tables, charts, and organize information systematically",
+    "learningPoints": [
+      "Read column and row headers carefully",
+      "Look for patterns in the data",
+      "Use logic to determine missing information",
+      "Check that your answers make sense in context",
+      "Consider relationships between different cells"
+    ],
+    "sections": [
+      {
+        "title": "Simple Data Tables",
+        "description": "Learn to complete basic information tables with missing data",
+        "examples": [
+          {
+            "title": "Animal Characteristics Table",
+            "headers": ["Animal", "Habitat", "Food Type"],
+            "data": [
+              ["Lion", "Savanna", "Meat"],
+              ["Rabbit", "Forest", "Plants"],
+              ["Fish", "Water", "Plankton"]
+            ],
+            "missingCell": {"row": 1, "col": 2, "answer": "Plants"},
+            "explanation": "Rabbits are herbivores, so they eat plants. This logical connection helps us fill in the missing information.",
+            "strategy": "Think about what you know about each animal's natural diet and habitat."
+          },
+          {
+            "title": "Math Addition Table",
+            "headers": ["+", "2", "5", "8"],
+            "data": [
+              ["3", "5", "8", "11"],
+              ["4", "6", "9", "12"],
+              ["7", "9", "12", "15"]
+            ],
+            "explanation": "This is an addition table where you add the number in the first column to the number in the top row.",
+            "strategy": "Look for the mathematical pattern to determine missing values."
+          }
+        ]
+      },
+      {
+        "title": "Classification Tables",
+        "description": "Learn to organize items into categories using tables",
+        "examples": [
+          {
+            "title": "Food Groups Table",
+            "headers": ["Fruits", "Vegetables", "Grains"],
+            "data": [
+              ["Apple", "Carrot", "Rice"],
+              ["Banana", "Broccoli", "Bread"],
+              ["Orange", "Spinach", "Pasta"]
+            ],
+            "explanation": "Items are organized by their food group classification.",
+            "strategy": "Think about the characteristics that define each category."
+          }
+        ]
+      },
+      {
+        "title": "Pattern Completion Tables",
+        "description": "Learn to identify and continue patterns in table format",
+        "examples": [
+          {
+            "title": "Number Pattern Table",
+            "headers": ["Position", "1", "2", "3", "4", "5"],
+            "data": [["Value", "2", "4", "6", "8", "10"]],
+            "explanation": "This table shows even numbers. Each position contains a number that is 2 times the position number.",
+            "pattern": "Multiply position by 2",
+            "strategy": "Look for mathematical relationships between position and value."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": 1,
+      "type": "table_completion",
+      "instruction": "Complete the missing information in this animal table.",
+      "table": {
+        "headers": ["Animal", "Habitat", "Number of Legs"],
+        "rows": [
+          ["Dog", "Land", "4"],
+          ["Bird", "Air/Land", ""],
+          ["Fish", "", "0"],
+          ["Spider", "Land", "8"]
+        ],
+        "missingCells": [
+          {"row": 1, "col": 2, "answer": "2"},
+          {"row": 2, "col": 1, "answer": "Water"}
+        ]
+      },
+      "explanation": "Birds have 2 legs, and fish live in water with no legs.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "type": "table_completion",
+      "instruction": "Complete this multiplication table.",
+      "table": {
+        "headers": ["×", "2", "3", "4"],
+        "rows": [
+          ["2", "4", "6", "8"],
+          ["3", "6", "", "12"],
+          ["4", "8", "12", ""]
+        ],
+        "missingCells": [
+          {"row": 1, "col": 2, "answer": "9"},
+          {"row": 2, "col": 3, "answer": "16"}
+        ]
+      },
+      "explanation": "3 × 3 = 9 and 4 × 4 = 16. Multiply the row number by the column number.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "type": "table_completion",
+      "instruction": "Fill in the missing food items in their correct categories.",
+      "table": {
+        "headers": ["Fruits", "Vegetables", "Dairy"],
+        "rows": [
+          ["Apple", "Carrot", "Milk"],
+          ["", "Broccoli", "Cheese"],
+          ["Orange", "", "Yogurt"]
+        ],
+        "missingCells": [
+          {"row": 1, "col": 0, "answer": "Banana"},
+          {"row": 2, "col": 1, "answer": "Lettuce"}
+        ]
+      },
+      "options": ["Banana", "Lettuce", "Chicken", "Rice"],
+      "explanation": "Banana is a fruit and Lettuce is a vegetable.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "type": "table_completion",
+      "instruction": "Complete this pattern table showing doubles.",
+      "table": {
+        "headers": ["Number", "1", "2", "3", "4", "5"],
+        "rows": [
+          ["Double", "2", "4", "", "8", ""]
+        ],
+        "missingCells": [
+          {"row": 0, "col": 2, "answer": "6"},
+          {"row": 0, "col": 4, "answer": "10"}
+        ]
+      },
+      "explanation": "Double of 3 is 6, and double of 5 is 10. Each number is multiplied by 2.",
+      "difficulty": "medium"
+    }
+  ]
+}

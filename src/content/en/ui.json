@@ -1,0 +1,23 @@
+{
+  "welcome": "Welcome to Quiz App",
+  "instructions": "Follow the instructions to complete each exercise",
+  "score": "Your Score",
+  "correct": "Correct!",
+  "incorrect": "Incorrect",
+  "completed": "Exercise Completed",
+  "loading": "Loading...",
+  "error": "An error occurred",
+  "retry": "Please try again",
+  "questions": "Questions",
+  "time": "Time",
+  "elapsed": "Elapsed",
+  "smartScore": "SmartScore",
+  "outOf100": "Out of 100",
+  "progress": "Progress",
+  "accuracy": "Accuracy",
+  "close": "Close",
+  "menu": "Menu",
+  "openMenu": "Open menu",
+  "closeMenu": "Close menu",
+  "skipToContent": "Skip to content"
+}

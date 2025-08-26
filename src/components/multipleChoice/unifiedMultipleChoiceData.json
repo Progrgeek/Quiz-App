@@ -1,0 +1,202 @@
+{
+  "ui": {
+    "buttons": {
+      "learnWithExamples": "Learn with examples",
+      "backToPractice": "Back to practice",
+      "submit": "Submit",
+      "next": "Next",
+      "previous": "Previous"
+    },
+    "labels": {
+      "question": "Question",
+      "selectOne": "Select ONE correct answer",
+      "explanation": "Explanation",
+      "hint": "Hint",
+      "progress": "Progress",
+      "score": "Score"
+    },
+    "messages": {
+      "correct": "Correct!",
+      "incorrect": "Try again",
+      "selectAnswer": "Please select an answer",
+      "completed": "Exercise completed!",
+      "loading": "Loading..."
+    }
+  },
+  "exampleContent": {
+    "title": "Multiple Choice Examples",
+    "description": "Learn how to select the best answer from multiple options",
+    "learningPoints": [
+      "Read the question carefully before looking at options",
+      "Eliminate obviously wrong answers first",
+      "Look for key words in the question",
+      "Choose the BEST answer, not just a correct one",
+      "Only one answer is correct in multiple choice questions"
+    ],
+    "sections": [
+      {
+        "title": "Basic Multiple Choice Strategy",
+        "description": "Master the fundamentals of answering multiple choice questions effectively",
+        "examples": [
+          {
+            "question": "What is 2 + 2?",
+            "options": ["3", "4", "5", "6"],
+            "correctAnswer": "4",
+            "explanation": "Adding 2 + 2 equals 4. This is a basic arithmetic problem.",
+            "strategy": "For math problems, calculate the answer before looking at options."
+          },
+          {
+            "question": "Which animal is a mammal?",
+            "options": ["Fish", "Bird", "Dog", "Reptile"],
+            "correctAnswer": "Dog",
+            "explanation": "Dogs are mammals because they are warm-blooded, have fur, and feed milk to their babies.",
+            "strategy": "Think about the defining characteristics of each category."
+          },
+          {
+            "question": "What color do you get when mixing red and yellow?",
+            "options": ["Purple", "Orange", "Green", "Blue"],
+            "correctAnswer": "Orange",
+            "explanation": "Red and yellow combine to make orange. This is a primary color combination.",
+            "strategy": "Visualize or recall color mixing rules."
+          }
+        ]
+      },
+      {
+        "title": "Process of Elimination",
+        "description": "Learn how to use elimination strategy to find the correct answer",
+        "examples": [
+          {
+            "question": "Which planet is closest to the Sun?",
+            "options": ["Earth", "Mars", "Mercury", "Venus"],
+            "correctAnswer": "Mercury",
+            "explanation": "Mercury is the planet closest to the Sun in our solar system.",
+            "eliminationProcess": [
+              "Earth is third from the Sun - eliminate",
+              "Mars is fourth from the Sun - eliminate", 
+              "Venus is second from the Sun - possible but not closest",
+              "Mercury is first from the Sun - correct answer"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question": "What is the capital of France?",
+      "options": [
+        {
+          "id": "a",
+          "text": "London",
+          "isCorrect": false
+        },
+        {
+          "id": "b", 
+          "text": "Berlin",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "text": "Paris",
+          "isCorrect": true
+        },
+        {
+          "id": "d",
+          "text": "Madrid",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Paris is the capital and largest city of France.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "type": "multiple_choice",
+      "question": "Which of the following is a primary color?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Green",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "text": "Orange", 
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "text": "Purple",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "text": "Red",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Red is one of the three primary colors, along with blue and yellow.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "type": "multiple_choice",
+      "question": "What is 15 + 27?",
+      "options": [
+        {
+          "id": "a",
+          "text": "32",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "text": "42",
+          "isCorrect": true
+        },
+        {
+          "id": "c", 
+          "text": "52",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "text": "41",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "15 + 27 = 42. You can solve this by adding the ones place (5+7=12, carry 1) and tens place (1+2+1=4).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "question": "Which organ pumps blood through the human body?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lungs",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "text": "Heart",
+          "isCorrect": true
+        },
+        {
+          "id": "c",
+          "text": "Liver",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "text": "Kidney",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The heart is a muscular organ that pumps blood throughout the body via the circulatory system.",
+      "difficulty": "easy"
+    }
+  ]
+}

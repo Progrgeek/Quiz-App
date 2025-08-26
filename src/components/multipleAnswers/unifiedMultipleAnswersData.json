@@ -1,0 +1,228 @@
+{
+  "ui": {
+    "buttons": {
+      "learnWithExamples": "Learn with examples",
+      "backToPractice": "Back to practice",
+      "submit": "Submit",
+      "next": "Next",
+      "previous": "Previous",
+      "checkAnswer": "Check Answer"
+    },
+    "labels": {
+      "question": "Question",
+      "selectMultiple": "Select ALL correct answers",
+      "explanation": "Explanation",
+      "hint": "Hint",
+      "progress": "Progress",
+      "score": "Score",
+      "selectedCount": "Selected"
+    },
+    "messages": {
+      "correct": "Correct!",
+      "incorrect": "Try again",
+      "selectAtLeastOne": "Please select at least one answer",
+      "completed": "Exercise completed!",
+      "loading": "Loading...",
+      "partiallyCorrect": "Partially correct - check your selections"
+    }
+  },
+  "exampleContent": {
+    "title": "Multiple Answers Examples",
+    "description": "Learn how to identify and select multiple correct answers from a list of options",
+    "learningPoints": [
+      "Read the question carefully to understand what you're looking for",
+      "Multiple answers can be correct - select ALL that apply",
+      "Look for common characteristics or patterns",
+      "Consider each option independently",
+      "Double-check your selections before submitting"
+    ],
+    "sections": [
+      {
+        "title": "Identifying Multiple Correct Answers",
+        "description": "Learn strategies for finding all correct answers in multiple selection questions",
+        "examples": [
+          {
+            "question": "Which of the following are primary colors?",
+            "options": [
+              {"text": "Red", "isCorrect": true},
+              {"text": "Blue", "isCorrect": true},
+              {"text": "Green", "isCorrect": false},
+              {"text": "Yellow", "isCorrect": true},
+              {"text": "Purple", "isCorrect": false}
+            ],
+            "explanation": "The three primary colors are red, blue, and yellow. Green and purple are secondary colors made by mixing primary colors.",
+            "strategy": "Remember the basic color theory - primary colors cannot be created by mixing other colors."
+          },
+          {
+            "question": "Which animals are mammals?",
+            "options": [
+              {"text": "Dog", "isCorrect": true},
+              {"text": "Cat", "isCorrect": true},
+              {"text": "Fish", "isCorrect": false},
+              {"text": "Bird", "isCorrect": false},
+              {"text": "Whale", "isCorrect": true}
+            ],
+            "explanation": "Dogs, cats, and whales are all mammals. They are warm-blooded, have hair or fur, and feed milk to their babies.",
+            "strategy": "Think about the defining characteristics of mammals: warm-blooded, hair/fur, milk production."
+          }
+        ]
+      },
+      {
+        "title": "Category Recognition",
+        "description": "Practice identifying items that belong to specific categories",
+        "examples": [
+          {
+            "question": "Which of these are geometric shapes?",
+            "options": [
+              {"text": "Circle", "isCorrect": true},
+              {"text": "Square", "isCorrect": true},
+              {"text": "Apple", "isCorrect": false},
+              {"text": "Triangle", "isCorrect": true},
+              {"text": "Car", "isCorrect": false}
+            ],
+            "explanation": "Circle, square, and triangle are all geometric shapes. Apple and car are objects, not geometric shapes.",
+            "strategy": "Focus on the category being asked about and ignore items that don't fit."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": 1,
+      "type": "multiple_answers",
+      "question": "Which of the following are fruits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Apple",
+          "isCorrect": true
+        },
+        {
+          "id": "b",
+          "text": "Carrot",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "text": "Banana",
+          "isCorrect": true
+        },
+        {
+          "id": "d",
+          "text": "Orange",
+          "isCorrect": true
+        },
+        {
+          "id": "e",
+          "text": "Potato",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Apple, banana, and orange are fruits. Carrot and potato are vegetables.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "type": "multiple_answers",
+      "question": "Which numbers are even?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2",
+          "isCorrect": true
+        },
+        {
+          "id": "b",
+          "text": "3",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "text": "8",
+          "isCorrect": true
+        },
+        {
+          "id": "d",
+          "text": "15",
+          "isCorrect": false
+        },
+        {
+          "id": "e",
+          "text": "20",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Even numbers are divisible by 2. The numbers 2, 8, and 20 are even. 3 and 15 are odd numbers.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "type": "multiple_answers",
+      "question": "Which of these are continents?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Asia",
+          "isCorrect": true
+        },
+        {
+          "id": "b",
+          "text": "Europe",
+          "isCorrect": true
+        },
+        {
+          "id": "c",
+          "text": "California",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "text": "Africa",
+          "isCorrect": true
+        },
+        {
+          "id": "e",
+          "text": "New York",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Asia, Europe, and Africa are continents. California and New York are states/cities, not continents.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "type": "multiple_answers",
+      "question": "Which of these activities require water?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Swimming",
+          "isCorrect": true
+        },
+        {
+          "id": "b",
+          "text": "Reading",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "text": "Washing dishes",
+          "isCorrect": true
+        },
+        {
+          "id": "d",
+          "text": "Sleeping",
+          "isCorrect": false
+        },
+        {
+          "id": "e",
+          "text": "Cooking pasta",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Swimming, washing dishes, and cooking pasta all require water. Reading and sleeping do not need water.",
+      "difficulty": "medium"
+    }
+  ]
+}

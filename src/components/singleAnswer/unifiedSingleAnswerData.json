@@ -1,0 +1,170 @@
+{
+  "ui": {
+    "buttons": {
+      "learnWithExamples": "Learn with examples",
+      "backToPractice": "Back to practice",
+      "playAudio": "Play audio",
+      "submit": "Submit",
+      "next": "Next",
+      "previous": "Previous"
+    },
+    "labels": {
+      "question": "Question",
+      "answer": "Answer",
+      "explanation": "Explanation",
+      "hint": "Hint",
+      "progress": "Progress",
+      "score": "Score"
+    },
+    "messages": {
+      "correct": "Correct!",
+      "incorrect": "Try again",
+      "completed": "Exercise completed!",
+      "loading": "Loading..."
+    }
+  },
+  "exampleContent": {
+    "title": "Single Answer Examples",
+    "description": "Learn how to identify correct answers from given options",
+    "learningPoints": [
+      "Read each question carefully",
+      "Consider all options before selecting",
+      "Look for context clues in the question",
+      "Eliminate obviously incorrect answers first"
+    ],
+    "sections": [
+      {
+        "title": "Syllable Counting",
+        "description": "Learn how to break words into syllables and count them correctly",
+        "examples": [
+          {
+            "word": "butterfly",
+            "syllables": ["but", "ter", "fly"],
+            "count": 3,
+            "audioGuide": "Listen carefully: but-ter-fly",
+            "tips": "Each syllable contains one vowel sound",
+            "explanation": "The word 'butterfly' has three distinct parts when spoken slowly: 'but', 'ter', and 'fly'"
+          },
+          {
+            "word": "elephant",
+            "syllables": ["e", "le", "phant"],
+            "count": 3,
+            "audioGuide": "Listen carefully: e-le-phant",
+            "tips": "Clap along with each syllable",
+            "explanation": "Break down 'elephant' into three parts: 'e', 'le', and 'phant'"
+          },
+          {
+            "word": "computer",
+            "syllables": ["com", "pu", "ter"],
+            "count": 3,
+            "audioGuide": "Listen carefully: com-pu-ter",
+            "tips": "Count the beats in the word",
+            "explanation": "The word 'computer' can be broken into three syllables: 'com', 'pu', and 'ter'"
+          }
+        ]
+      },
+      {
+        "title": "Rhyming Words",
+        "description": "Learn to identify words that have the same ending sound",
+        "examples": [
+          {
+            "targetWord": "cat",
+            "rhymingWords": ["hat", "bat", "rat"],
+            "nonRhymingWord": "dog",
+            "explanation": "Words that rhyme with 'cat' end with the 'at' sound"
+          },
+          {
+            "targetWord": "moon",
+            "rhymingWords": ["soon", "tune", "spoon"],
+            "nonRhymingWord": "star",
+            "explanation": "Words that rhyme with 'moon' end with the 'oon' sound"
+          },
+          {
+            "targetWord": "tree",
+            "rhymingWords": ["free", "bee", "see"],
+            "nonRhymingWord": "bird",
+            "explanation": "Words that rhyme with 'tree' end with the 'ee' sound"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": 1,
+      "type": "syllable",
+      "word": "volcano",
+      "image": "/dist/images/volcano.png",
+      "syllables": ["vol", "ca", "no"],
+      "correctAnswer": 3,
+      "options": [2, 3, 4],
+      "question": "Listen to the word 'volcano'. How many syllables do you hear?"
+    },
+    {
+      "id": 2,
+      "type": "syllable",
+      "word": "penguin",
+      "image": "/dist/images/penguin.png",
+      "syllables": ["pen", "guin"],
+      "correctAnswer": 2,
+      "options": [1, 2, 3],
+      "question": "Count the syllables in the word 'penguin'."
+    },
+    {
+      "id": 3,
+      "type": "syllable",
+      "word": "elephant",
+      "image": "/dist/images/elephant.png",
+      "syllables": ["e", "le", "phant"],
+      "correctAnswer": 3,
+      "options": [2, 3, 4],
+      "question": "How many syllables are in the word 'elephant'?"
+    },
+    {
+      "id": 4,
+      "type": "rhyme",
+      "targetWord": "hope",
+      "question": "Which word below rhymes with 'hope'?",
+      "options": [
+        {
+          "word": "rope",
+          "image": "/dist/images/rope.png",
+          "isCorrect": true
+        },
+        {
+          "word": "cat",
+          "image": "/dist/images/cat.png",
+          "isCorrect": false
+        },
+        {
+          "word": "ball",
+          "image": "/dist/images/football.png",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "rhyme",
+      "targetWord": "dog",
+      "question": "Which word rhymes with 'dog'?",
+      "options": [
+        {
+          "word": "log",
+          "image": "/dist/images/box.png",
+          "isCorrect": true
+        },
+        {
+          "word": "lion",
+          "image": "/dist/images/lion.png",
+          "isCorrect": false
+        },
+        {
+          "word": "shark",
+          "image": "/dist/images/shark.png",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

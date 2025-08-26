@@ -1,0 +1,62 @@
+{
+  "common": {
+    "selectCorrectAnswer": "Select the correct answer",
+    "chooseFromOptions": "Choose from the options below",
+    "dragItemsToCategories": "Drag items to their correct categories",
+    "fillInMissingWords": "Fill in the missing words",
+    "highlightTargetElements": "Highlight the {{target}} in the text",
+    "arrangeInCorrectOrder": "Arrange the items in the correct order",
+    "organizeIntoCategories": "Organize the information into categories",
+    "clickToModify": "Click on the text to modify it",
+    "selectMultipleAnswers": "Select all correct answers"
+  },
+  "dragAndDrop": {
+    "sortBySense": "Sort these sensory details into their correct categories",
+    "dragToCategory": "Drag each item to the appropriate category",
+    "categorizeItems": "Categorize the following items",
+    "sortByHabitat": "Sort these animals by their habitats"
+  },
+  "fillInTheBlanks": {
+    "completeTheSentence": "Complete the sentence with the correct word",
+    "useWordFromFamily": "Use a word from the same word family as {{word}}",
+    "fillMissingWord": "Fill in the missing word to complete the sentence"
+  },
+  "gapFill": {
+    "completeMissingLetters": "Complete the word by filling in the missing letters",
+    "listenAndComplete": "Listen to the pronunciation and complete the word",
+    "useImageClue": "Use the image as a clue to complete the word"
+  },
+  "highlight": {
+    "highlightVowels": "Highlight all the vowels in the text",
+    "highlightNouns": "Highlight all the nouns in the text", 
+    "highlightPronouns": "Highlight all the pronouns in the text",
+    "highlightAdjectives": "Highlight all the adjectives in the text",
+    "highlightTarget": "Highlight all instances of {{target}}"
+  },
+  "sequencing": {
+    "arrangeAlphabetically": "Arrange the words in alphabetical order",
+    "arrangeNumerically": "Arrange the numbers in ascending order",
+    "arrangeSentences": "Arrange the sentences in the correct order",
+    "arrangeSteps": "Arrange the steps in the correct sequence"
+  },
+  "singleAnswer": {
+    "countSyllables": "Count the syllables in the word",
+    "identifyRhyme": "Which word rhymes with {{word}}?",
+    "selectCorrect": "Select the correct answer from the options"
+  },
+  "multipleAnswers": {
+    "selectAllCorrect": "Select all the correct answers",
+    "multipleCorrectOptions": "There may be more than one correct answer",
+    "chooseApplicable": "Choose all that apply"
+  },
+  "clickToChange": {
+    "correctCapitalization": "Correct the capitalization in the text",
+    "replacePronouns": "Replace the pronouns as needed",
+    "fixGrammar": "Fix the grammatical errors by clicking on them"
+  },
+  "tableExercise": {
+    "organizeByTopic": "Organize the information by topic",
+    "categorizeIntoColumns": "Categorize each item into the appropriate column",
+    "sortIntoCategories": "Sort the items into their correct categories"
+  }
+}

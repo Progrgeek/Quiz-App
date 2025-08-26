@@ -1,0 +1,137 @@
+{
+  "ui": {
+    "buttons": {
+      "learnWithExamples": "Learn with examples",
+      "backToPractice": "Back to practice",
+      "submit": "Submit",
+      "next": "Next",
+      "previous": "Previous",
+      "checkAnswer": "Check Answer"
+    },
+    "labels": {
+      "question": "Question",
+      "fillGap": "Fill the gap",
+      "wordBank": "Word Bank",
+      "explanation": "Explanation",
+      "hint": "Hint",
+      "progress": "Progress",
+      "score": "Score"
+    },
+    "messages": {
+      "correct": "Correct!",
+      "incorrect": "Try again",
+      "selectWord": "Please select a word from the word bank",
+      "completed": "Exercise completed!",
+      "loading": "Loading..."
+    }
+  },
+  "exampleContent": {
+    "title": "Gap Fill Examples",
+    "description": "Learn how to complete sentences by choosing the right words from a word bank",
+    "learningPoints": [
+      "Read the entire sentence to understand the context",
+      "Consider the meaning and grammar of each option",
+      "Look for clues in the surrounding words",
+      "Think about what type of word fits (noun, verb, adjective)",
+      "Choose words that make the sentence logical and complete"
+    ],
+    "sections": [
+      {
+        "title": "Context Clues Strategy",
+        "description": "Learn to use surrounding words and sentence structure to choose the right word",
+        "examples": [
+          {
+            "sentence": "The cat sat on the warm _____ in the sunshine.",
+            "options": ["rock", "water", "snow", "ice"],
+            "correctAnswer": "rock",
+            "explanation": "The word 'warm' and 'sunshine' suggest something that can be heated by the sun. A rock makes the most sense in this context.",
+            "contextClues": ["warm", "sunshine", "sat on"]
+          },
+          {
+            "sentence": "She _____ her homework carefully before turning it in.",
+            "options": ["ate", "checked", "threw", "broke"],
+            "correctAnswer": "checked",
+            "explanation": "In the context of homework and 'carefully', 'checked' is the only logical verb choice.",
+            "contextClues": ["homework", "carefully", "before turning it in"]
+          },
+          {
+            "sentence": "The _____ flowers bloomed beautifully in spring.",
+            "options": ["colorful", "loud", "fast", "heavy"],
+            "correctAnswer": "colorful",
+            "explanation": "Flowers are typically described by their appearance. 'Colorful' is the only adjective that makes sense for flowers.",
+            "contextClues": ["flowers", "bloomed", "beautifully"]
+          }
+        ]
+      },
+      {
+        "title": "Grammar Patterns",
+        "description": "Understanding how different types of words fit into sentence structures",
+        "examples": [
+          {
+            "sentence": "The dog _____ across the yard quickly.",
+            "options": ["ran", "red", "big", "happy"],
+            "correctAnswer": "ran",
+            "explanation": "This sentence needs a verb (action word) to describe what the dog did. 'Ran' is the only verb in the options.",
+            "grammarFocus": "Verb identification",
+            "pattern": "Subject + Verb + Prepositional phrase + Adverb"
+          },
+          {
+            "sentence": "The _____ house stood on the hill.",
+            "options": ["quickly", "jumped", "tall", "singing"],
+            "correctAnswer": "tall",
+            "explanation": "The sentence needs an adjective to describe the house. 'Tall' is the only adjective that describes size or appearance.",
+            "grammarFocus": "Adjective placement",
+            "pattern": "Article + Adjective + Noun + Verb phrase"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": 1,
+      "type": "gap_fill",
+      "sentence": "The cat climbed up the tall _____.",
+      "wordBank": ["tree", "water", "song", "quick"],
+      "correctAnswer": "tree",
+      "explanation": "Cats climb up trees. The other words don't make sense in this context.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "type": "gap_fill",
+      "sentence": "She _____ her teeth before going to bed.",
+      "wordBank": ["brushed", "flew", "tall", "blue"],
+      "correctAnswer": "brushed",
+      "explanation": "'Brushed' is the correct verb for what you do with teeth as part of bedtime routine.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "type": "gap_fill",
+      "sentence": "The _____ butterfly landed on the flower.",
+      "wordBank": ["beautiful", "quickly", "jumped", "heavy"],
+      "correctAnswer": "beautiful",
+      "explanation": "'Beautiful' is an adjective that appropriately describes a butterfly. The other words are either adverbs or verbs that don't fit.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "type": "gap_fill",
+      "sentence": "He _____ the ball to his friend across the playground.",
+      "wordBank": ["threw", "purple", "slowly", "table"],
+      "correctAnswer": "threw",
+      "explanation": "'Threw' is the past tense verb that describes the action of sending a ball to someone.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 5,
+      "type": "gap_fill",
+      "sentence": "The _____ rain made everyone run for shelter.",
+      "wordBank": ["heavy", "danced", "quickly", "notebook"],
+      "correctAnswer": "heavy",
+      "explanation": "'Heavy' is an adjective that describes intense rain that would make people seek shelter.",
+      "difficulty": "medium"
+    }
+  ]
+}

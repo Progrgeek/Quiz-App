@@ -1,0 +1,56 @@
+{
+  "common": {
+    "learnWithExamples": "Learn with examples",
+    "backToPractice": "Back to practice",
+    "submit": "Submit",
+    "nextQuestion": "Next Question",
+    "previous": "Previous",
+    "finish": "Finish Exercise",
+    "startExercise": "Start Exercise",
+    "tryAgain": "Try Again",
+    "showExample": "Show Example",
+    "hideExample": "Hide Example",
+    "checkAnswer": "Check Answer",
+    "continue": "Continue",
+    "completed": "Completed",
+    "example": "Example",
+    "listenToAll": "Listen to all"
+  },
+  "multipleAnswers": {
+    "instruction": "Select all correct answers",
+    "selectAtLeast": "Please select at least one answer",
+    "correctSelection": "Great! You selected all correct answers.",
+    "partialSelection": "Some of your answers are correct, but you missed some.",
+    "incorrectSelection": "Please review your selections and try again.",
+    "question": "Listen to each word. Which two words end with the same sound?"
+  },
+  "multipleChoice": {
+    "instruction": "Select the best answer",
+    "selectOne": "Please select one answer",
+    "correctAnswer": "Correct! Well done.",
+    "incorrectAnswer": "That's not quite right. Try again."
+  },
+  "dragAndDrop": {
+    "instruction": "Drag items to the correct locations",
+    "dropHere": "Drop here",
+    "correctPlacement": "Great placement!",
+    "incorrectPlacement": "Try placing this item elsewhere."
+  },
+  "fillInBlanks": {
+    "instruction": "Fill in the missing words",
+    "placeholder": "Enter your answer...",
+    "correctAnswer": "Perfect! Your answer is correct.",
+    "incorrectAnswer": "Check your spelling and try again."
+  },
+  "highlight": {
+    "instruction": "Click to highlight the correct text",
+    "selectText": "Please select some text",
+    "correctHighlight": "Excellent highlighting!",
+    "incorrectHighlight": "Try highlighting different text."
+  },
+  "sequencing": {
+    "instruction": "Put the items in the correct order",
+    "correctOrder": "Perfect sequence!",
+    "incorrectOrder": "The order isn't quite right. Try again."
+  }
+}

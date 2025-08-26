@@ -1,0 +1,53 @@
+{
+  "common": {
+    "learnWithExamples": "Apprendre avec des exemples",
+    "backToPractice": "Retour à la pratique",
+    "submit": "Soumettre",
+    "nextQuestion": "Question Suivante",
+    "previous": "Précédent",
+    "finish": "Terminer l'Exercice",
+    "startExercise": "Commencer l'Exercice",
+    "tryAgain": "Réessayer",
+    "showExample": "Montrer l'Exemple",
+    "hideExample": "Masquer l'Exemple",
+    "checkAnswer": "Vérifier la Réponse",
+    "continue": "Continuer"
+  },
+  "multipleAnswers": {
+    "instruction": "Sélectionnez toutes les bonnes réponses",
+    "selectAtLeast": "Veuillez sélectionner au moins une réponse",
+    "correctSelection": "Excellent! Vous avez sélectionné toutes les bonnes réponses.",
+    "partialSelection": "Certaines de vos réponses sont correctes, mais vous en avez manqué quelques-unes.",
+    "incorrectSelection": "Veuillez revoir vos sélections et réessayer.",
+    "question": "Écoutez chaque mot. Quels deux mots se terminent par le même son?"
+  },
+  "multipleChoice": {
+    "instruction": "Sélectionnez la meilleure réponse",
+    "selectOne": "Veuillez sélectionner une réponse",
+    "correctAnswer": "Correct! Bien joué.",
+    "incorrectAnswer": "Ce n'est pas tout à fait ça. Réessayez."
+  },
+  "dragAndDrop": {
+    "instruction": "Faites glisser les éléments vers les emplacements corrects",
+    "dropHere": "Déposer ici",
+    "correctPlacement": "Excellent placement!",
+    "incorrectPlacement": "Essayez de placer cet élément ailleurs."
+  },
+  "fillInBlanks": {
+    "instruction": "Remplissez les mots manquants",
+    "placeholder": "Entrez votre réponse...",
+    "correctAnswer": "Parfait! Votre réponse est correcte.",
+    "incorrectAnswer": "Vérifiez votre orthographe et réessayez."
+  },
+  "highlight": {
+    "instruction": "Cliquez pour surligner le texte correct",
+    "selectText": "Veuillez sélectionner du texte",
+    "correctHighlight": "Excellent surlignage!",
+    "incorrectHighlight": "Essayez de surligner un texte différent."
+  },
+  "sequencing": {
+    "instruction": "Mettez les éléments dans le bon ordre",
+    "correctOrder": "Séquence parfaite!",
+    "incorrectOrder": "L'ordre n'est pas tout à fait correct. Réessayez."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "success": {
+    "correct": "Correct! Well done!",
+    "excellent": "Excellent work!",
+    "perfect": "Perfect!",
+    "greatJob": "Great job!",
+    "wellDone": "Well done!",
+    "outstanding": "Outstanding!",
+    "superb": "Superb!",
+    "fantastic": "Fantastic!",
+    "amazing": "Amazing!",
+    "brilliant": "Brilliant!"
+  },
+  "encouragement": {
+    "keepGoing": "Keep going! You're doing great!",
+    "almostThere": "Almost there! Don't give up!",
+    "goodProgress": "Good progress! Keep it up!",
+    "onTheRightTrack": "You're on the right track!",
+    "tryAgain": "Try again! You can do it!",
+    "closeButNotQuite": "Close, but not quite. Try once more!",
+    "thinkCarefully": "Think carefully and try again",
+    "reviewAndTryAgain": "Review your answer and try again"
+  },
+  "error": {
+    "incorrect": "Incorrect. Please try again.",
+    "notQuite": "Not quite right. Give it another try!",
+    "tryAgain": "That's not correct. Try again!",
+    "checkAnswer": "Please check your answer and try again",
+    "almostCorrect": "Almost correct! Review and try once more",
+    "needsWork": "This needs more work. Try again!",
+    "lookMoreCarefully": "Look more carefully and try again"
+  },
+  "hints": {
+    "useHint": "Need help? Use the hint button",
+    "listenAgain": "Listen to the audio again for help",
+    "checkExample": "Check the example for guidance",
+    "readInstructions": "Read the instructions carefully",
+    "takeYourTime": "Take your time and think it through",
+    "considerOptions": "Consider all the options carefully"
+  },
+  "completion": {
+    "exerciseComplete": "Exercise completed!",
+    "allCorrect": "All answers correct! Excellent work!",
+    "finalScore": "Your final score: {{score}}%",
+    "timeCompleted": "Completed in {{time}}",
+    "perfectScore": "Perfect score! Outstanding!",
+    "goodAttempt": "Good attempt! Keep practicing!",
+    "practiceMore": "Practice more to improve your score"
+  },
+  "progress": {
+    "question": "Question {{current}} of {{total}}",
+    "progressUpdate": "Progress: {{percentage}}% complete",
+    "timeElapsed": "Time elapsed: {{time}}",
+    "questionsRemaining": "{{remaining}} questions remaining",
+    "halfwayThere": "Halfway there! Keep going!",
+    "almostFinished": "Almost finished! Great work!"
+  }
+}

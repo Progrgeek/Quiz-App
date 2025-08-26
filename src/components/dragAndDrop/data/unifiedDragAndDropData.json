@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "exerciseType": "drag-and-drop",
+    "version": "2.0",
+    "lastUpdated": "2025-08-24"
+  },
+  "ui": {
+    "buttons": {
+      "learnWithExample": "Learn with examples",
+      "backToPractice": "Back to practice",
+      "checkAnswer": "Check Answer",
+      "nextExercise": "Next Exercise",
+      "tryAgain": "Try Again"
+    },
+    "labels": {
+      "learningPoints": "Learning Points:",
+      "example": "Example",
+      "explanation": "Explanation",
+      "instructions": "Instructions",
+      "categories": "Categories"
+    },
+    "feedback": {
+      "correct": "Excellent work!",
+      "incorrect": "Not quite right. Try again!",
+      "completed": "Exercise completed!"
+    }
+  },
+  "exampleContent": {
+    "title": "How to categorize sensory details",
+    "description": "Here's an example of how sensory details can be categorized by the sense they appeal to.",
+    "learningPoints": [
+      "Each category represents one of our five senses",
+      "Notice how specific details help create vivid mental images", 
+      "Good writing often combines multiple sensory details",
+      "These details make descriptions more engaging and memorable"
+    ],
+    "introduction": "When you write, you can use **sensory details** to make stories and scenes easier for the reader to imagine. A sensory detail makes the reader imagine a particular sight, sound, smell, taste, or touch.",
+    "demonstrations": {
+      "sight": [
+        {
+          "key": "the bright yellow sun",
+          "solution": "This helps you imagine the color and appearance of the sun"
+        },
+        {
+          "key": "dark storm clouds",
+          "solution": "This describes what the clouds look like"
+        }
+      ],
+      "sound": [
+        {
+          "key": "birds chirping loudly",
+          "solution": "This describes what you would hear"
+        },
+        {
+          "key": "thunder rumbling",
+          "solution": "This helps you imagine the sound of thunder"
+        }
+      ],
+      "smell": [
+        {
+          "key": "fresh morning coffee", 
+          "solution": "This describes a specific scent"
+        },
+        {
+          "key": "sweet roses",
+          "solution": "This helps you imagine the flower's fragrance"
+        }
+      ],
+      "taste": [
+        {
+          "key": "salty ocean water",
+          "solution": "This describes what something tastes like"
+        },
+        {
+          "key": "bitter medicine",
+          "solution": "This helps you imagine the taste"
+        }
+      ],
+      "touch": [
+        {
+          "key": "rough tree bark",
+          "solution": "This describes how something feels to touch"
+        },
+        {
+          "key": "smooth silk fabric",
+          "solution": "This helps you imagine the texture"
+        }
+      ]
+    },
+    "practiceExample": {
+      "id": "example-1",
+      "question": "Categorize these sensory details by the sense they appeal to",
+      "categories": {
+        "sight": [
+          {"id": "s1", "content": "bright yellow sun"},
+          {"id": "s2", "content": "dark storm clouds"}
+        ],
+        "sound": [
+          {"id": "so1", "content": "birds chirping"},
+          {"id": "so2", "content": "thunder rumbling"}
+        ],
+        "smell": [
+          {"id": "sm1", "content": "fresh coffee"},
+          {"id": "sm2", "content": "sweet roses"}
+        ],
+        "taste": [
+          {"id": "t1", "content": "salty water"},
+          {"id": "t2", "content": "bitter medicine"}
+        ],
+        "touch": [
+          {"id": "to1", "content": "rough bark"},
+          {"id": "to2", "content": "smooth silk"}
+        ]
+      }
+    }
+  },
+  "exercises": [
+    {
+      "id": 1,
+      "type": "animals",
+      "contentType": "image",
+      "question": "Sort these animals by their habits.",
+      "instruction": "Drag each animal to the correct category based on where they primarily live.",
+      "categories": ["water", "land"],
+      "options": [
+        {
+          "id": "1",
+          "content": "/images/dolphin.png",
+          "label": "Dolphin",
+          "category": "water",
+          "type": "image"
+        },
+        {
+          "id": "2", 
+          "content": "/images/elephant.png",
+          "label": "Elephant",
+          "category": "land",
+          "type": "image"
+        },
+        {
+          "id": "3",
+          "content": "/images/shark.png", 
+          "label": "Shark",
+          "category": "water",
+          "type": "image"
+        },
+        {
+          "id": "4",
+          "content": "/images/lion.png",
+          "label": "Lion", 
+          "category": "land",
+          "type": "image"
+        }
+      ],
+      "feedback": {
+        "correct": "Great job! You correctly sorted the animals by their habitats.",
+        "incorrect": "Some animals are in the wrong category. Think about where each animal naturally lives.",
+        "hints": [
+          "Dolphins and sharks live in water",
+          "Elephants and lions live on land"
+        ]
+      }
+    }
+  ]
+}

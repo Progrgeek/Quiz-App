@@ -1,0 +1,163 @@
+{
+  "ui": {
+    "buttons": {
+      "learnWithExamples": "Learn with examples",
+      "backToPractice": "Back to practice",
+      "submit": "Submit",
+      "next": "Next",
+      "previous": "Previous",
+      "reset": "Reset"
+    },
+    "labels": {
+      "question": "Question",
+      "dragToOrder": "Drag to put in correct order",
+      "explanation": "Explanation",
+      "hint": "Hint",
+      "progress": "Progress",
+      "score": "Score",
+      "step": "Step",
+      "correctOrder": "Correct order"
+    },
+    "messages": {
+      "correct": "Correct!",
+      "incorrect": "Try again",
+      "dragItems": "Drag the items to arrange them in the correct order",
+      "completed": "Exercise completed!",
+      "loading": "Loading..."
+    }
+  },
+  "exampleContent": {
+    "title": "Sequencing Examples",
+    "description": "Learn how to arrange items, events, or steps in the correct logical or chronological order",
+    "learningPoints": [
+      "Look for logical connections between items",
+      "Consider chronological order (what happens first, second, etc.)",
+      "Think about cause and effect relationships",
+      "Consider size, importance, or priority order",
+      "Use context clues to determine the correct sequence"
+    ],
+    "sections": [
+      {
+        "title": "Chronological Sequencing",
+        "description": "Learn to arrange events in the order they happen in time",
+        "examples": [
+          {
+            "title": "Daily Morning Routine",
+            "items": ["Wake up", "Brush teeth", "Get dressed", "Eat breakfast", "Go to school"],
+            "explanation": "These activities follow a logical morning sequence that most people do in this order.",
+            "strategy": "Think about what you do first when you wake up, then what comes next."
+          },
+          {
+            "title": "Plant Growth Stages",
+            "items": ["Plant seed", "Seedling sprouts", "Leaves grow", "Flowers bloom", "Fruit develops"],
+            "explanation": "This shows the natural progression of how a plant grows from seed to mature plant.",
+            "strategy": "Consider the biological process and what must happen before each stage."
+          },
+          {
+            "title": "Making a Sandwich",
+            "items": ["Get bread", "Spread peanut butter", "Add jelly", "Put bread slices together", "Cut in half"],
+            "explanation": "These steps follow the logical process of sandwich making.",
+            "strategy": "Think about the physical steps required and what must be done before each step."
+          }
+        ]
+      },
+      {
+        "title": "Size and Number Sequencing",
+        "description": "Learn to arrange items by size, quantity, or numerical order",
+        "examples": [
+          {
+            "title": "Numbers from Smallest to Largest",
+            "items": ["3", "7", "15", "28", "45"],
+            "explanation": "These numbers are arranged in ascending (increasing) order from smallest to largest.",
+            "strategy": "Compare the value of each number and arrange from least to greatest."
+          },
+          {
+            "title": "Animals by Size",
+            "items": ["Ant", "Cat", "Horse", "Elephant", "Whale"],
+            "explanation": "These animals are arranged from smallest to largest in typical size.",
+            "strategy": "Think about the relative sizes of these animals in real life."
+          }
+        ]
+      },
+      {
+        "title": "Process Sequencing",
+        "description": "Learn to arrange steps in a process or procedure",
+        "examples": [
+          {
+            "title": "Getting Ready for Bed",
+            "items": ["Put on pajamas", "Brush teeth", "Read a story", "Turn off lights", "Go to sleep"],
+            "explanation": "This shows a typical bedtime routine in logical order.",
+            "strategy": "Think about what you need to do before you can do the next step."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": 1,
+      "type": "sequencing",
+      "instruction": "Arrange these steps for making a peanut butter sandwich in the correct order.",
+      "items": [
+        {"text": "Put slices together", "correctPosition": 4},
+        {"text": "Get two slices of bread", "correctPosition": 1},
+        {"text": "Spread peanut butter on one slice", "correctPosition": 2},
+        {"text": "Add jelly to the other slice", "correctPosition": 3}
+      ],
+      "explanation": "First get the bread, then spread peanut butter, add jelly, and finally put the slices together.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "type": "sequencing",
+      "instruction": "Put these numbers in order from smallest to largest.",
+      "items": [
+        {"text": "25", "correctPosition": 3},
+        {"text": "8", "correctPosition": 1},
+        {"text": "43", "correctPosition": 4},
+        {"text": "12", "correctPosition": 2}
+      ],
+      "explanation": "The numbers in ascending order are: 8, 12, 25, 43.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "type": "sequencing",
+      "instruction": "Arrange these events in the order they happen during a day at school.",
+      "items": [
+        {"text": "Eat lunch", "correctPosition": 3},
+        {"text": "Arrive at school", "correctPosition": 1},
+        {"text": "Go home", "correctPosition": 4},
+        {"text": "Attend morning classes", "correctPosition": 2}
+      ],
+      "explanation": "A typical school day: arrive, attend morning classes, eat lunch, then go home.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "type": "sequencing",
+      "instruction": "Put these stages of a butterfly's life cycle in the correct order.",
+      "items": [
+        {"text": "Butterfly emerges", "correctPosition": 4},
+        {"text": "Egg is laid", "correctPosition": 1},
+        {"text": "Caterpillar forms chrysalis", "correctPosition": 3},
+        {"text": "Caterpillar hatches", "correctPosition": 2}
+      ],
+      "explanation": "Butterfly life cycle: egg → caterpillar → chrysalis → butterfly.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 5,
+      "type": "sequencing",
+      "instruction": "Arrange these animals from smallest to largest.",
+      "items": [
+        {"text": "Elephant", "correctPosition": 3},
+        {"text": "Mouse", "correctPosition": 1},
+        {"text": "Dog", "correctPosition": 2},
+        {"text": "Whale", "correctPosition": 4}
+      ],
+      "explanation": "Size order: Mouse (smallest) → Dog → Elephant → Whale (largest).",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "common": {
+    "learnWithExamples": "Aprender con ejemplos",
+    "backToPractice": "Volver a la práctica",
+    "submit": "Enviar",
+    "nextQuestion": "Siguiente Pregunta",
+    "previous": "Anterior",
+    "finish": "Terminar Ejercicio",
+    "startExercise": "Comenzar Ejercicio",
+    "tryAgain": "Intentar de Nuevo",
+    "showExample": "Mostrar Ejemplo",
+    "hideExample": "Ocultar Ejemplo",
+    "checkAnswer": "Verificar Respuesta",
+    "continue": "Continuar"
+  },
+  "multipleAnswers": {
+    "instruction": "Selecciona todas las respuestas correctas",
+    "selectAtLeast": "Por favor selecciona al menos una respuesta",
+    "correctSelection": "¡Excelente! Seleccionaste todas las respuestas correctas.",
+    "partialSelection": "Algunas de tus respuestas son correctas, pero te faltan algunas.",
+    "incorrectSelection": "Por favor revisa tus selecciones e inténtalo de nuevo.",
+    "question": "Escucha cada palabra. ¿Cuáles dos palabras terminan con el mismo sonido?"
+  },
+  "multipleChoice": {
+    "instruction": "Selecciona la mejor respuesta",
+    "selectOne": "Por favor selecciona una respuesta",
+    "correctAnswer": "¡Correcto! Bien hecho.",
+    "incorrectAnswer": "Eso no está del todo bien. Inténtalo de nuevo."
+  },
+  "dragAndDrop": {
+    "instruction": "Arrastra los elementos a las ubicaciones correctas",
+    "dropHere": "Soltar aquí",
+    "correctPlacement": "¡Excelente colocación!",
+    "incorrectPlacement": "Intenta colocar este elemento en otro lugar."
+  },
+  "fillInBlanks": {
+    "instruction": "Llena las palabras que faltan",
+    "placeholder": "Ingresa tu respuesta...",
+    "correctAnswer": "¡Perfecto! Tu respuesta es correcta.",
+    "incorrectAnswer": "Verifica tu ortografía e inténtalo de nuevo."
+  },
+  "highlight": {
+    "instruction": "Haz clic para resaltar el texto correcto",
+    "selectText": "Por favor selecciona algún texto",
+    "correctHighlight": "¡Excelente resaltado!",
+    "incorrectHighlight": "Intenta resaltar un texto diferente."
+  },
+  "sequencing": {
+    "instruction": "Pon los elementos en el orden correcto",
+    "correctOrder": "¡Secuencia perfecta!",
+    "incorrectOrder": "El orden no está del todo bien. Inténtalo de nuevo."
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "ui": {
+    "buttons": {
+      "learnWithExamples": "Learn with examples",
+      "backToPractice": "Back to practice",
+      "submit": "Submit",
+      "next": "Next",
+      "previous": "Previous",
+      "checkAnswer": "Check Answer"
+    },
+    "labels": {
+      "question": "Question",
+      "clickToHighlight": "Click words to highlight them",
+      "explanation": "Explanation",
+      "hint": "Hint",
+      "progress": "Progress",
+      "score": "Score",
+      "wordsToFind": "Words to find"
+    },
+    "messages": {
+      "correct": "Correct!",
+      "incorrect": "Try again",
+      "selectWords": "Please select the required words",
+      "completed": "Exercise completed!",
+      "loading": "Loading..."
+    }
+  },
+  "exampleContent": {
+    "title": "Highlight Exercise Examples",
+    "description": "Learn how to identify and highlight specific types of words or phrases in text",
+    "learningPoints": [
+      "Read the instructions carefully to know what to look for",
+      "Scan the text systematically from left to right",
+      "Understand the characteristics of the word type you're finding",
+      "Double-check your selections before submitting",
+      "Context can help you identify the correct words"
+    ],
+    "sections": [
+      {
+        "title": "Finding Nouns",
+        "description": "Learn to identify and highlight nouns (people, places, things, ideas) in sentences",
+        "examples": [
+          {
+            "text": "The cat sat on the mat in the garden.",
+            "targetType": "nouns",
+            "highlightWords": ["cat", "mat", "garden"],
+            "explanation": "Nouns are words that name people, places, things, or ideas. In this sentence: 'cat' (animal), 'mat' (thing), and 'garden' (place) are all nouns.",
+            "tips": "Look for words that answer 'who?' or 'what?' in the sentence."
+          },
+          {
+            "text": "The teacher gave the students their homework yesterday.",
+            "targetType": "nouns",
+            "highlightWords": ["teacher", "students", "homework"],
+            "explanation": "Teacher (person), students (people), and homework (thing/concept) are all nouns.",
+            "tips": "People and objects are usually easy to spot as nouns."
+          }
+        ]
+      },
+      {
+        "title": "Finding Verbs",
+        "description": "Learn to identify action words and being verbs in sentences",
+        "examples": [
+          {
+            "text": "The dog runs quickly and jumps over the fence.",
+            "targetType": "verbs",
+            "highlightWords": ["runs", "jumps"],
+            "explanation": "Verbs show action or state of being. 'Runs' and 'jumps' are both action verbs showing what the dog does.",
+            "tips": "Ask 'what is happening?' or 'what does the subject do?' to find verbs."
+          },
+          {
+            "text": "She is happy and feels excited about the trip.",
+            "targetType": "verbs",
+            "highlightWords": ["is", "feels"],
+            "explanation": "'Is' is a being verb (shows state), and 'feels' is a verb expressing emotion/sensation.",
+            "tips": "Don't forget about being verbs like 'is', 'are', 'was', 'were'."
+          }
+        ]
+      },
+      {
+        "title": "Finding Adjectives",
+        "description": "Learn to identify descriptive words that modify nouns",
+        "examples": [
+          {
+            "text": "The small, red car drove down the busy street.",
+            "targetType": "adjectives",
+            "highlightWords": ["small", "red", "busy"],
+            "explanation": "Adjectives describe nouns. 'Small' and 'red' describe the car, while 'busy' describes the street.",
+            "tips": "Adjectives often come before the noun they describe and answer 'what kind?', 'which one?', or 'how many?'"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": 1,
+      "type": "highlight",
+      "instruction": "Highlight all the nouns in the sentence.",
+      "text": "The teacher read a story to the children in the classroom.",
+      "words": ["The", "teacher", "read", "a", "story", "to", "the", "children", "in", "the", "classroom"],
+      "correctAnswers": ["teacher", "story", "children", "classroom"],
+      "explanation": "Nouns are words that name people, places, things, or ideas. Teacher (person), story (thing), children (people), and classroom (place) are all nouns.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "type": "highlight",
+      "instruction": "Highlight all the verbs in the sentence.",
+      "text": "The cat runs fast and jumps high.",
+      "words": ["The", "cat", "runs", "fast", "and", "jumps", "high"],
+      "correctAnswers": ["runs", "jumps"],
+      "explanation": "Verbs are action words or words that show what someone or something does. 'Runs' and 'jumps' are both action verbs.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "type": "highlight",
+      "instruction": "Highlight all the adjectives in the sentence.",
+      "text": "The big, fluffy dog played in the green grass.",
+      "words": ["The", "big", "fluffy", "dog", "played", "in", "the", "green", "grass"],
+      "correctAnswers": ["big", "fluffy", "green"],
+      "explanation": "Adjectives describe nouns. 'Big' and 'fluffy' describe the dog, while 'green' describes the grass.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "type": "highlight",
+      "instruction": "Highlight all the adverbs in the sentence.",
+      "text": "She quickly ran upstairs and quietly closed the door.",
+      "words": ["She", "quickly", "ran", "upstairs", "and", "quietly", "closed", "the", "door"],
+      "correctAnswers": ["quickly", "quietly"],
+      "explanation": "Adverbs describe verbs and often end in '-ly'. 'Quickly' describes how she ran, and 'quietly' describes how she closed the door.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 5,
+      "type": "highlight",
+      "instruction": "Highlight all the proper nouns in the sentence.",
+      "text": "Mary and John visited Paris during their vacation in July.",
+      "words": ["Mary", "and", "John", "visited", "Paris", "during", "their", "vacation", "in", "July"],
+      "correctAnswers": ["Mary", "John", "Paris", "July"],
+      "explanation": "Proper nouns are specific names of people, places, or things and are capitalized. Mary and John (people), Paris (place), and July (month) are all proper nouns.",
+      "difficulty": "medium"
+    }
+  ]
+}

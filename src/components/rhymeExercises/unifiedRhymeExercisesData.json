@@ -1,0 +1,216 @@
+{
+  "ui": {
+    "buttons": {
+      "learnWithExamples": "Learn with examples",
+      "backToPractice": "Back to practice",
+      "playAudio": "Play audio",
+      "submit": "Submit",
+      "next": "Next",
+      "previous": "Previous"
+    },
+    "labels": {
+      "question": "Question",
+      "findRhyme": "Find the rhyming word",
+      "explanation": "Explanation",
+      "hint": "Hint",
+      "progress": "Progress",
+      "score": "Score",
+      "targetWord": "Target word"
+    },
+    "messages": {
+      "correct": "Correct!",
+      "incorrect": "Try again",
+      "selectWord": "Please select a word",
+      "completed": "Exercise completed!",
+      "loading": "Loading..."
+    }
+  },
+  "exampleContent": {
+    "title": "Rhyming Exercise Examples",
+    "description": "Learn how to identify words that have the same ending sound (rhyme)",
+    "learningPoints": [
+      "Rhyming words have the same ending sound",
+      "Listen carefully to the ending of each word",
+      "Words can rhyme even if they're spelled differently",
+      "Focus on the sound, not the spelling",
+      "Practice saying words out loud to hear the rhyme"
+    ],
+    "sections": [
+      {
+        "title": "Basic Rhyming Patterns",
+        "description": "Learn to recognize common rhyming sounds and patterns",
+        "examples": [
+          {
+            "targetWord": "cat",
+            "rhymingWords": ["hat", "bat", "rat", "mat"],
+            "nonRhymingWords": ["dog", "car", "sun"],
+            "soundPattern": "-at",
+            "explanation": "All these words end with the 'at' sound. Even though they start with different letters, they rhyme because of their ending sound.",
+            "audioGuide": "Listen: cat, hat, bat, rat - they all end with the same sound"
+          },
+          {
+            "targetWord": "tree",
+            "rhymingWords": ["free", "bee", "see", "key"],
+            "nonRhymingWords": ["bird", "flower", "root"],
+            "soundPattern": "-ee",
+            "explanation": "These words all end with the long 'ee' sound, making them rhyme with 'tree'.",
+            "audioGuide": "Listen: tree, free, bee, see - notice the matching ending sound"
+          },
+          {
+            "targetWord": "night",
+            "rhymingWords": ["light", "bright", "sight", "right"],
+            "nonRhymingWords": ["dark", "moon", "star"],
+            "soundPattern": "-ight",
+            "explanation": "Words ending in '-ight' all have the same sound pattern and rhyme together.",
+            "audioGuide": "Listen: night, light, bright, sight - they share the 'ight' ending"
+          }
+        ]
+      },
+      {
+        "title": "Sound vs. Spelling",
+        "description": "Understanding that rhyming is about sound, not spelling",
+        "examples": [
+          {
+            "targetWord": "blue",
+            "rhymingWords": ["through", "new", "flew", "grew"],
+            "explanation": "These words rhyme even though they're spelled very differently. 'Blue', 'through', 'new', 'flew', and 'grew' all have the same ending sound.",
+            "spellingNote": "Notice how 'blue', 'through', and 'new' are spelled differently but sound the same at the end."
+          },
+          {
+            "targetWord": "eight",
+            "rhymingWords": ["late", "great", "wait", "gate"],
+            "explanation": "'Eight' rhymes with words ending in '-ate' sound, even though it's spelled differently.",
+            "spellingNote": "The number 'eight' sounds like 'ate' at the end."
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": 1,
+      "type": "rhyme_identification",
+      "targetWord": "dog",
+      "question": "Which word rhymes with 'dog'?",
+      "options": [
+        {
+          "word": "log",
+          "image": "/images/log.png",
+          "isCorrect": true
+        },
+        {
+          "word": "cat",
+          "image": "/images/cat.png",
+          "isCorrect": false
+        },
+        {
+          "word": "bird",
+          "image": "/images/bird.png",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "'Dog' and 'log' both end with the 'og' sound, making them rhyming words.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "type": "rhyme_identification",
+      "targetWord": "sun",
+      "question": "Which word rhymes with 'sun'?",
+      "options": [
+        {
+          "word": "run",
+          "image": "/images/runner.png",
+          "isCorrect": true
+        },
+        {
+          "word": "moon",
+          "image": "/images/moon.png",
+          "isCorrect": false
+        },
+        {
+          "word": "star",
+          "image": "/images/star.png",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "'Sun' and 'run' both end with the 'un' sound.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "type": "rhyme_identification",
+      "targetWord": "cake",
+      "question": "Which word rhymes with 'cake'?",
+      "options": [
+        {
+          "word": "lake",
+          "image": "/images/lake.png",
+          "isCorrect": true
+        },
+        {
+          "word": "pie",
+          "image": "/images/pie.png",
+          "isCorrect": false
+        },
+        {
+          "word": "bread",
+          "image": "/images/bread.png",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "'Cake' and 'lake' both end with the 'ake' sound.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "type": "rhyme_identification",
+      "targetWord": "house",
+      "question": "Which word rhymes with 'house'?",
+      "options": [
+        {
+          "word": "mouse",
+          "image": "/images/mouse.png",
+          "isCorrect": true
+        },
+        {
+          "word": "door",
+          "image": "/images/door.png",
+          "isCorrect": false
+        },
+        {
+          "word": "window",
+          "image": "/images/window.png",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "'House' and 'mouse' both end with the 'ouse' sound.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 5,
+      "type": "rhyme_identification",
+      "targetWord": "bear",
+      "question": "Which word rhymes with 'bear'?",
+      "options": [
+        {
+          "word": "chair",
+          "image": "/images/chair.png",
+          "isCorrect": true
+        },
+        {
+          "word": "tiger",
+          "image": "/images/tiger.png",
+          "isCorrect": false
+        },
+        {
+          "word": "lion",
+          "image": "/images/lion.png",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "'Bear' and 'chair' both end with the 'air' sound, even though they're spelled differently.",
+      "difficulty": "medium"
+    }
+  ]
+}

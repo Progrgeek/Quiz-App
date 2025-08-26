@@ -1,0 +1,76 @@
+{
+  "navigation": {
+    "dragAndDrop": "Drag and Drop",
+    "fillInTheBlanks": "Fill in the Blanks", 
+    "gapFill": "Gap Fill",
+    "highlight": "Highlight",
+    "clickToChange": "Click to Change",
+    "singleAnswer": "Single Answer",
+    "multipleAnswers": "Multiple Answers",
+    "sequencing": "Sequencing",
+    "organizeInformation": "Organize Information by Topic",
+    "progress": "Progress",
+    "about": "About",
+    "contact": "Contact",
+    "languages": "Languages"
+  },
+  "buttons": {
+    "learnWithExample": "Learn with an example",
+    "backToPractice": "Back to practice",
+    "submit": "Submit",
+    "next": "Next",
+    "previous": "Previous",
+    "restart": "Restart",
+    "finish": "Finish",
+    "continue": "Continue",
+    "skipToNext": "Skip to Next",
+    "showHint": "Show Hint",
+    "hideHint": "Hide Hint",
+    "playAudio": "Play Audio",
+    "pauseAudio": "Pause Audio"
+  },
+  "labels": {
+    "score": "Score",
+    "timeElapsed": "Time Elapsed",
+    "question": "Question",
+    "of": "of",
+    "progress": "Progress",
+    "correct": "Correct",
+    "incorrect": "Incorrect",
+    "points": "Points",
+    "totalQuestions": "Total Questions",
+    "completedQuestions": "Completed Questions",
+    "accuracy": "Accuracy",
+    "averageTime": "Average Time"
+  },
+  "messages": {
+    "loading": "Loading...",
+    "noContent": "No content available",
+    "error": "An error occurred",
+    "tryAgain": "Try again",
+    "wellDone": "Well done!",
+    "keepGoing": "Keep going!",
+    "almostThere": "Almost there!",
+    "excellent": "Excellent!",
+    "goodJob": "Good job!",
+    "needsImprovement": "Needs improvement"
+  },
+  "placeholders": {
+    "enterAnswer": "Enter your answer",
+    "selectOption": "Select an option",
+    "dragHere": "Drag items here",
+    "clickToSelect": "Click to select",
+    "fillInBlank": "Fill in the blank"
+  },
+  "accessibility": {
+    "dragItem": "Draggable item: {{item}}",
+    "dropZone": "Drop zone for {{category}}",
+    "selectedItem": "Selected item: {{item}}",
+    "correctAnswer": "Correct answer",
+    "incorrectAnswer": "Incorrect answer",
+    "skipToMain": "Skip to main content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "toggleTheme": "Toggle theme"
+  }
+}

@@ -1,0 +1,26 @@
+.dragging {
+    overflow: hidden;
+    touch-action: none;
+    cursor:all-scroll !important;
+    user-select: none;
+  }
+
+
+[data-dragging="true"] {
+  z-index: 999;
+  position: relative;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
+
+.fixed-width-container {
+  width: 100% !important;
+  max-width: 100% !important;
+  transform: none !important;
+}
